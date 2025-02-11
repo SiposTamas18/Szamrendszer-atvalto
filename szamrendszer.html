@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="szamrendszer.css">
+    <script src="szamrendszer.js"></script>
+</head>
+<body>
+    <div id="main">
+
+        <div id="parent">
+          <h1>Számrendszer átváltó</h1>
+    
+            <div id="other">
+              <div id="paBin" class="center">
+                <input id="bin" placeholder="Bináris szám" autocomplete="off">
+                <div class="btn">
+                  <button onclick="resultBin()">Átvált</button>
+                </div>
+              </div>
+    
+              <div id="paHex" class="center">
+                <input id="hex" placeholder="Hexadecimális szám" autocomplete="off">
+                <div class="btn">
+                  <button class="up" onclick="resultHex()">Átvált</button>
+                </div>
+              </div>
+    
+              <div id="paOct" class="center">
+                <input id="oct" placeholder="Oktális szám" autocomplete="off">
+                <div class="btn">
+                  <button class="up" onclick="resultOct()">Átvált</button>
+                </div>
+              </div>
+            </div>
+    
+            <div id="another" class="center">
+              <input id="dec" placeholder="Decimális szám" autocomplete="off">
+              <div class="btn">
+                <button onclick="resultDec()">Átvált</button>
+            </div>
+            <div class="btn">
+              <button onclick="reset()">Törlés</button>
+          </div>
+          </div>
+    
+    
+        </div>
+      </div>
+    
+</body>
+</html>
